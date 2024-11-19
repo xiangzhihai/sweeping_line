@@ -2,6 +2,7 @@ from typing import *
 
 class Solution:
     """
+    https://leetcode.cn/problems/meeting-rooms-ii/
     Approaches:
     - Greedy algorithm: Sort start time and end times, and sweep from 0 increasingly,
         if we meet a start time we just add one to the room number, and if we meet a end
